@@ -94,7 +94,9 @@ The SVM implementation may involve tuning various parameters for optimal perform
 
 #### Example code snippet for SVM training with scikit-learn
 from sklearn.svm import SVC
+
 svm = Pipeline([("tfidf", TfidfVectorizer()) , ("classifier", SVC(C = 100, gamma='auto'))])
+
 svm.fit(X_train, y_train)
 
 
@@ -123,10 +125,15 @@ from sklearn.svm import SVC
 To run the Spam Message Classification project, ensure you have the required Python libraries installed. If you don't have them installed yet, use the following commands:
 
 pip install numpy
+
 pip install pandas
+
 pip install matplotlib
+
 pip install scikit-learn
+
 pip install nltk
+
 python -m nltk.downloader all
 
 ### 5. Evaluation
@@ -135,14 +142,19 @@ The performance of the Spam Message Classification model is assessed using vario
 
 #### Model Evaluation Metrics
 
-- **Accuracy:**
+**Accuracy:**
   - Accuracy measures the overall correctness of the model predictions.
 
 from sklearn.metrics import classification_report, accuracy_score, confusion_matrix
+
 y_pred = classifier.predict(X_test)
+
 y_pred = svm.predict(X_test)
+
 accuracy_score(y_test, y_pred)
+
 confusion_matrix(y_test, y_pred)
+
 print(classification_report(y_test, y_pred))
 
 
