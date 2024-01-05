@@ -100,15 +100,22 @@ svm.fit(X_train, y_train)
 
 ### 4.  Dependencies
 
-#### 4.1 Required Libraries
+### 4.1 Required Libraries
 
 import numpy as np
+
 import pandas as pd
+
 import matplotlib.pyplot as plt
+
 from sklearn.model_selection import train_test_split
+
 from sklearn.feature_extraction.text import TfidfVectorizer
+
 from sklearn.ensemble import RandomForestClassifier
+
 from sklearn.pipeline import Pipeline
+
 from sklearn.svm import SVC
 
 ### 4.2 Installation
@@ -126,7 +133,7 @@ python -m nltk.downloader all
 
 The performance of the Spam Message Classification model is assessed using various metrics to ensure its effectiveness in distinguishing between spam and non-spam messages.
 
-### Model Evaluation Metrics
+#### Model Evaluation Metrics
 
 - **Accuracy:**
   - Accuracy measures the overall correctness of the model predictions.
