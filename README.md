@@ -66,18 +66,18 @@ Before training the machine learning model, the text data undergoes preprocessin
 The `TfidfVectorizer` is employed to convert a collection of raw text messages into a matrix of TF-IDF features. This technique transforms the text data into numerical vectors, capturing the importance of words within each document.
 
 
- Example code snippet for TF-IDF Vectorization
+## Example code snippet for TF-IDF Vectorization
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-# Initialize the TfidfVectorizer
+## Initialize the TfidfVectorizer
 tfidf_vectorizer = TfidfVectorizer()
 
-# Fit and transform the text data
+## Fit and transform the text data
 tfidf_matrix = tfidf_vectorizer.fit_transform(messages)
 
-# tfidf_matrix now contains the TF-IDF representation of the text data
+## tfidf_matrix now contains the TF-IDF representation of the text data
 
-## 3. Model Training
+# 3. Model Training
 
 ### 3.1 Algorithm Selection
 
