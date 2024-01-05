@@ -19,8 +19,8 @@ The primary goal is to develop an accurate and efficient classification model th
 
 ### 1.3 Key Features
 
-- **Machine Learning Model:** Utilizes [TF-IDF Vectorization, **RandomForestClassifier**, **Support Vector Machines (SVM)** algorithm] for effective message classification.
-- **Data Preprocessing:** Discusses the steps taken to clean and prepare the dataset for model training.
+- **Machine Learning Model:** Utilizes  **RandomForestClassifier**, **Support Vector Machines (SVM)** algorithm for effective message classification.
+- **Data Preprocessing:**  TF-IDF Vectorization
 - **Performance Metrics:** Evaluates the model using classification_report, accuracy_score, confusion_matrix to ensure robustness.
 
 
