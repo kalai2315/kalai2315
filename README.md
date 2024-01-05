@@ -61,12 +61,12 @@ The dataset used in this Spam Message Classification project is structured as a 
 
 Before training the machine learning model, the text data undergoes preprocessing, including the use of the `TfidfVectorizer` for feature extraction.
 
-### TF-IDF Vectorization
+## TF-IDF Vectorization
 
 The `TfidfVectorizer` is employed to convert a collection of raw text messages into a matrix of TF-IDF features. This technique transforms the text data into numerical vectors, capturing the importance of words within each document.
 
 
-# Example code snippet for TF-IDF Vectorization
+ Example code snippet for TF-IDF Vectorization
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Initialize the TfidfVectorizer
