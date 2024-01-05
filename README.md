@@ -2,7 +2,6 @@
 - [Introduction](#introduction)
 - [Data](#data)
 - [Dependencies](#dependencies)
-- [Usage](#usage)
 - [Model Training](#model-training)
 - [Evaluation](#evaluation)
 
@@ -66,7 +65,7 @@ Before training the machine learning model, the text data undergoes preprocessin
 
 The `TfidfVectorizer` is employed to convert a collection of raw text messages into a matrix of TF-IDF features. This technique transforms the text data into numerical vectors, capturing the importance of words within each document.
 
-```python
+
 # Example code snippet for TF-IDF Vectorization
 from sklearn.feature_extraction.text import TfidfVectorizer
 
@@ -78,30 +77,30 @@ tfidf_matrix = tfidf_vectorizer.fit_transform(messages)
 
 # tfidf_matrix now contains the TF-IDF representation of the text data
 
-## 3.   Model Training
+## 3. Model Training
 
-### 3.1Algorithm Selection
+### 3.1 Algorithm Selection
 
 The machine learning model in this project utilizes the **Support Vector Machines (SVM)** algorithm for effective message classification. SVM is a powerful and versatile algorithm known for its ability to handle high-dimensional data and nonlinear relationships.
 
-#### Understanding SVM
+#### 3.2 Understanding SVM
 
 Support Vector Machines work by finding the hyperplane that best separates different classes in the feature space. In the case of spam message classification, the algorithm learns to distinguish between spam and non-spam messages based on the features extracted from the text data.
 
-#### SVM Parameters
+#### 3.3 SVM Parameters
 
 The SVM implementation may involve tuning various parameters for optimal performance. Key parameters include the choice of kernel (linear, polynomial, or radial basis function), regularization parameters (C), and others. Adjust these parameters based on the characteristics of your dataset.
 
-```python
+
 # Example code snippet for SVM training with scikit-learn
 from sklearn.svm import SVC
 svm = Pipeline([("tfidf", TfidfVectorizer()) , ("classifier", SVC(C = 100, gamma='auto'))])
 svm.fit(X_train, y_train)
 
 
-###   Dependencies
+### 4.  Dependencies
 
-### 3.1 Required Libraries
+### 4.1 Required Libraries
 
 import numpy as np
 import pandas as pd
@@ -112,10 +111,10 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.pipeline import Pipeline
 from sklearn.svm import SVC
 
-### 3.2 Installation
-
+### 4.2 Installation
 
 To run the Spam Message Classification project, ensure you have the required Python libraries installed. If you don't have them installed yet, use the following commands:
+
 pip install numpy
 pip install pandas
 pip install matplotlib
@@ -123,7 +122,7 @@ pip install scikit-learn
 pip install nltk
 python -m nltk.downloader all
 
-## Evaluation
+## 5. Evaluation
 
 The performance of the Spam Message Classification model is assessed using various metrics to ensure its effectiveness in distinguishing between spam and non-spam messages.
 
