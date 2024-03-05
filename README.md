@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @kalai2315
+- 👋 Hi, I’m @kalai
 - 👀 I’m interested in exploring the vast world of data science, artificial intelligence, and machine learning.
 - 🌱 I’m currently learning advanced data analysis techniques, machine learning algorithms, and enhancing my programming skills with Python.
 - 💞️ I’m looking to collaborate on exciting data science projects where I can apply my skills and contribute to meaningful solutions.
