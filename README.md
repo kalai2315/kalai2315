@@ -4,8 +4,7 @@
 - 🌱 I possess expertise in advanced data analysis techniques, machine learning algorithms, and enhancing my programming skills with Python,SQL.
 - 💞️ I’m eager to collaborate on innovative data science projects where I can apply my skills and contribute to meaningful solutions.
   
-- 📫 Feel free to connect with me on [https://www.linkedin.com/in/kalaiselvi-ganesan-6313a32a2/] or
-      drop me an email at [kalaiselvi.ganesan15@gmail.com].
+- 📫 Feel free to connect with me on email at [kalaiselvi.ganesan15@gmail.com].
 
 
 <!---
