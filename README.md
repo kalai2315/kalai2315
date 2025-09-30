@@ -1,13 +1,11 @@
-- 👋 Hi, I’m @Kalai
-- 👀 I have a deep interest in exploring the vast and dynamic fields of Clinical Data Analysis, Statistical Analysis, Data science, Machine learning and Deep Learning.
-      I am fascinated by how data can drive decisions and how machine learning can predict future trends and outcomes.
-- 🌱 I possess expertise in Advanced Data Analysis Techniques, Machine Learning algorithms, and enhancing my programming skills with Python,SQL and SAS .
-- 💞️ I’m eager to collaborate on innovative data science projects where I can apply my skills and contribute to meaningful solutions.
-  
-- 📫 Feel free to connect with me on email at [kalaiselvi.ganesan15@gmail.com].
+👋 Hi, I’m @Kalai
 
+👀 I have a deep interest in exploring the vast and dynamic fields of **Artificial Intelligence, Machine Learning, Deep Learning, and Data Science**. I am fascinated by how AI/ML can transform data into insights, drive smarter decisions, and predict future outcomes.
 
-<!---
-kalai2315/kalai2315 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
+🌱 I possess expertise in **Advanced Data Analysis, Machine Learning algorithms, and Statistical Analysis**, while continuously enhancing my programming skills with **Python, SQL, and SAS**.
+
+💞️ I’m eager to collaborate on innovative AI/ML and Data Science projects where I can apply my skills as an **AI/ML Engineer and Data Scientist** to build meaningful, impactful solutions.
+
+📫 Feel free to connect with me at **[kalaiselvi.ganesan15@gmail.com](mailto:kalaiselvi.ganesan15@gmail.com)**
+
 --->
